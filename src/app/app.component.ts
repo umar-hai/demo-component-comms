@@ -2,9 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `<demo-parent></demo-parent>`,
 })
-export class AppComponent {
-  title = 'reactive-forms-demo';
-}
+export class AppComponent {}
